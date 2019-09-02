@@ -4,7 +4,6 @@ import logo from './logo.svg';
 import './App.css';
 import * as LDClient from "launchdarkly-js-client-sdk";
 
-
 class App extends React.Component{
   
   constructor() {
