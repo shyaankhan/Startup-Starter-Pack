@@ -1,4 +1,15 @@
+# Startup Starter Pack
+
+Launch your startup in no time! Using this app, you'll be able to generate a new startup idea from scratch! In future versions, you will even be able to start creating your pitch deck, and send an email to your favorite VC!
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Production Environment 
+
+You can access this project on https://startupstarterpack.herokuapp.com/. 
+
+## Feature Flags
+
+This projected uses LaunchDarkly for its feature flag management. Within the LaunchDarkly app, the only feature flag available is called `enable-new-feature`. This feature flag will toggle the release of the next big update to Startup Starter Pack. 
 
 ## Available Scripts
 
